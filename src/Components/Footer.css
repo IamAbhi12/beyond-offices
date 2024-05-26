@@ -1,0 +1,131 @@
+.footer {
+  width: 100%;
+  height: 414px;
+  background: #0d2c4a;
+}
+
+.footer-container {
+  width: 90%;
+  height: 414px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 48px;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 75px 0;
+}
+
+.footer-logo {
+  width: 336px;
+  height: 113px;
+  background: url("../../public/images/footer-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-about-section {
+  width: 337px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.footer-about-text {
+  color: var(--Color-Gray-4, #f8f8f8);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.8;
+}
+
+.footer-socials {
+  display: flex;
+  width: 331px;
+  padding: 3px 4px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.footer-socials-link {
+  text-decoration: none;
+}
+
+.insta-username {
+  color: #0d2c4a;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.85;
+}
+
+.footer-social-item {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.footer-social-item svg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.socials-btn {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.socials-btn svg {
+  object-fit: cover;
+  padding: 8px;
+}
+
+.footer-content {
+  display: inline-flex;
+  margin-top: 75px;
+  height: 258px;
+  align-items: flex-start;
+  gap: 64px;
+  flex-shrink: 0;
+}
+
+.footer-content-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-content-title {
+  margin: 0 0 32px 0;
+  color: var(--Color-White, #fff);
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+  opacity: 0.5;
+}
+
+.footer-content-item {
+  color: var(--Color-White, #fff);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration: none;
+  cursor: pointer;
+}

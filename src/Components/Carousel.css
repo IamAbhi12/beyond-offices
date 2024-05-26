@@ -1,0 +1,38 @@
+.carousel {
+  position: relative;
+  width: 960px;
+  height: 600px;
+  margin-left: auto;
+  box-shadow: 0px 4px 7px 0px rgba(97, 70, 0, 0.15);
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators {
+  display: inline-flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 56px;
+  margin-left: 430px;
+  gap: 4px;
+}
+.carousel-indicator {
+  width: 16px;
+  height: 4px;
+  opacity: 0.5;
+  background: #808080;
+  cursor: pointer;
+}
+
+.carousel-indicator.active {
+  width: 40px;
+  background: #dc913f;
+  opacity: 1;
+}

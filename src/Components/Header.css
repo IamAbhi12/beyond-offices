@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  margin: auto;
+  margin-top: 61px;
+  color: var(--Color-Black, #222831);
+  font-family: Lato;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.main-logo {
+  width: 98px;
+  height: 31px;
+  background: url("../../public/images/main-logo.png") lightgray -4.016px -5.285px /
+    108.197% 134.755% no-repeat;
+}
+
+nav div {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+
+.nav-link {
+  color: var(--Color-Black, #222831);
+  text-decoration: none;
+}
+
+.nav-btn {
+  color: var(--Color-Black, #222831);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-stroke {
+  height: 2px;
+  align-self: stretch;
+}
+
+.current {
+  background: #dc913f;
+  box-shadow: 0px 4px 16px 0px rgba(255, 87, 34, 0.32);
+}
+
+.register {
+  display: flex;
+  flex-direction: row;
+  width: 199px;
+  height: 43px;
+  flex-shrink: 0;
+}
+
+.register button {
+  display: inline-flex;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 10px;
+  font-family: Lato;
+}
+
+.login-btn button {
+  color: #dc913f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.signup-btn button {
+  background: #dc913f;
+  box-shadow: 0px 4px 16px 0px rgba(255, 87, 34, 0.32);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  color: var(--Color-White, #fff);
+  cursor: pointer;
+}

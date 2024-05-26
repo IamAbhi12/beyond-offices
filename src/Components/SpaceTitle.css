@@ -1,0 +1,70 @@
+.space-title-card {
+  width: 350px;
+  height: 467px;
+  background: #10375c;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #10375c5a;
+}
+
+.space-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 253px;
+  margin: auto;
+  gap: 14px;
+  padding-top: 50px;
+}
+
+.space-title {
+  color: var(--Color-White, #fff);
+  font-family: Lora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.space-link {
+  text-decoration: none;
+}
+
+.space-desc {
+  color: var(--Color-White, #fff);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.space-svg {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.space-check-avail {
+  width: 255px;
+  height: 72px;
+  background: #dc913f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.space-check-avail-text {
+  color: var(--Color-White, #fff);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}

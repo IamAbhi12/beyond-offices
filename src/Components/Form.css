@@ -1,0 +1,142 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 65px;
+  width: 445px;
+  height: 459px;
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 4px 20.9px 0px rgba(5, 48, 68, 0.15);
+}
+
+.form-title {
+  color: #10375c;
+  font-family: Lora;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 40px;
+  margin-top: 42px;
+  margin-bottom: 29px;
+}
+
+.form-group {
+  width: 365px;
+  height: 68px;
+  border-radius: 8px;
+  background: #0d2c4a;
+  align-self: stretch;
+  margin: 8.5px auto;
+  position: relative;
+}
+
+.form-btn {
+  display: flex;
+  width: 365px;
+  height: 53px;
+  padding: 13px 90px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: none;
+  background: #dc913f;
+  box-shadow: 0px 4px 7px 0px rgba(97, 70, 0, 0.15);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form-btn-text {
+  color: var(--Color-White, #fff);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+  text-transform: uppercase;
+}
+
+.submit-link {
+  text-decoration: none;
+}
+
+.form-label {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.35;
+}
+
+.form-input {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 330px;
+  margin: 0 14px;
+  height: 60%;
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.form-input:active,
+.form-input:focus {
+  outline: none;
+}
+
+.type-input::placeholder {
+  color: var(--Color-White, #fff);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.location-input::placeholder {
+  color: var(--Color-White, #fff);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+option {
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+
+.date-input {
+  width: 90%;
+}
+
+.form-group select::after {
+  position: absolute;
+  top: 100px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  position: absolute;
+  top: 0;
+  right: 0;
+}

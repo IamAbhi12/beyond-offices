@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background rectangle to fill up the area -->
+  <rect width="100%" height="100%" fill="none" stroke="none"/>
+
+  <!-- Divide the space into four equal rectangles -->
+  <rect x="0" y="0" width="50" height="50" fill="none" stroke="none"/> <!-- First rectangle -->
+  <rect x="50" y="0" width="50" height="50" fill="none" stroke="none"/> <!-- Second rectangle -->
+  <rect x="0" y="50" width="50" height="50" fill="none" stroke="none"/> <!-- Third rectangle -->
+  <rect x="50" y="50" width="50" height="50" fill="none" stroke="none"/> <!-- Fourth rectangle -->
+
+  <!-- Strokes pattern inside the second and third rectangle -->
+  <!-- Diagonal strokes with constant gap -->
+  <!-- Adjust the gap and stroke width as needed -->
+  
+  <line x1="45" y1="29" x2="73" y2="66" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the second rectangle -->
+  <line x1="45" y1="15" x2="85" y2="67" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the second rectangle -->
+  <line x1="55" y1="15" x2="85" y2="53" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the second rectangle -->
+  <line x1="65" y1="15" x2="85" y2="39" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the second rectangle -->
+  <line x1="75" y1="15" x2="85" y2="26" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the second rectangle -->
+  
+  <line x1="26" y1="60" x2="54" y2="90" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the third rectangle -->  
+  <line x1="10" y1="54" x2="49" y2="94" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the third rectangle -->
+  <line x1="10" y1="63" x2="41" y2="95" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the third rectangle -->
+  <line x1="10" y1="72" x2="31" y2="95" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the third rectangle -->
+  <line x1="10" y1="82" x2="22" y2="95" stroke="#ffb900" stroke-width="0.6"/> <!-- Top-left to bottom-right in the third rectangle -->
+  
+</svg>

@@ -1,0 +1,389 @@
+.workspace1 {
+  position: relative;
+  width: 1110px;
+  height: 420px;
+  margin: 0 auto;
+}
+
+.no-svg {
+  border-radius: 5.77px;
+  background: #10375c;
+  cursor: pointer;
+}
+
+.ws-item {
+  fill: #10375c;
+  position: absolute;
+}
+
+.ws-item svg path {
+  cursor: pointer;
+}
+
+.ws-name {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  z-index: 2;
+  cursor: pointer;
+}
+
+.ws-name-subtext {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px; /* 114.286% */
+  z-index: 2;
+  cursor: pointer;
+}
+
+.floor-number {
+  position: absolute;
+  left: 471px;
+  top: 154px;
+  color: #dc913f;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+}
+
+.the-office {
+  width: 383px;
+  height: 342px;
+}
+
+.the-office .ws-name {
+  inset: 153px 196px 173px 112px;
+}
+
+.the-office .ws-name-subtext {
+  inset: 173px 213px 153px 129px;
+}
+
+.washroom {
+  width: 149px;
+  height: 180px;
+  left: 360px;
+}
+
+.washroom .ws-name {
+  inset: 36px 36px 128px 35px;
+}
+
+.stationary {
+  width: 77px;
+  height: 88px;
+  left: 388px;
+  top: 254px;
+}
+
+.stationary .ws-name {
+  inset: 30px 8px 26px 8px;
+}
+
+.reception {
+  width: 148px;
+  height: 88px;
+  left: 470px;
+  top: 254px;
+}
+
+.reception .ws-name {
+  inset: 36px 38px;
+}
+
+.calling-booths {
+  width: 251px;
+  height: 44px;
+  left: 624px;
+}
+
+.calling-booths .ws-name {
+  inset: 13px 66px 17px 66px;
+}
+
+.pantry {
+  width: 123px;
+  height: 58px;
+  left: 624px;
+  top: 50px;
+}
+
+.pantry .ws-name {
+  inset: 18px 38px 24px 37px;
+}
+
+.lockers {
+  width: 123px;
+  height: 103px;
+  left: 624px;
+  top: 114px;
+}
+
+.lockers .ws-name {
+  inset: 41px 34px 46px 34px;
+}
+
+.community-tables {
+  width: 122px;
+  height: 167px;
+  left: 753px;
+  top: 50px;
+}
+
+.community-tables .ws-name {
+  inset: 67px 19px 68px 20px;
+}
+
+.phone-booth {
+  width: 122px;
+  height: 44px;
+  left: 881px;
+}
+
+.phone-booth .ws-name {
+  inset: 13px 1px 17px 2px;
+}
+
+.semi-private-booths {
+  width: 122px;
+  height: 122px;
+  top: 50px;
+  left: 881px;
+}
+
+.semi-private-booths .ws-name {
+  inset: 34px 35px 40px 36px;
+}
+
+.pool-table {
+  width: 205px;
+  height: 88px;
+  left: 753px;
+  top: 254px;
+}
+
+.pool-table .ws-name {
+  inset: 36px 65px;
+}
+
+.gather {
+  width: 147px;
+  height: 231px;
+  left: 963px;
+  top: 182px;
+}
+
+.gather .ws-name {
+  inset: 118px 49px 97px 48px;
+}
+
+.gather .ws-name-subtext {
+  inset: 138px 29px 77px 28px;
+}
+
+.workstations {
+  width: 205px;
+  height: 48px;
+  left: 753px;
+  top: 365px;
+}
+
+.workstations .ws-name {
+  inset: 16px 54px;
+}
+
+.visiting-lounge {
+  width: 123px;
+  height: 48px;
+  left: 624px;
+  top: 365px;
+}
+
+.visiting-lounge .ws-name {
+  inset: 8px 32px;
+}
+
+.navigation {
+  position: absolute;
+  left: 239px;
+  top: 365px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+}
+
+.nav-item {
+  color: var(--Color-Black, #222831);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+}
+
+.ws-arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.conference-room {
+  width: 190.286px;
+  height: 243.623px;
+}
+
+.conference-room .ws-name {
+  inset: 107px 54px 107px 54px;
+}
+
+.meeting-rooms {
+  width: 144.156px;
+  height: 92.26px;
+  left: 197.49px;
+}
+
+.meeting-rooms .ws-name {
+  inset: 32px 42px 28px 42px;
+}
+
+.workstations1 {
+  width: 144.156px;
+  height: 92.26px;
+  left: 197.49px;
+  top: 97.03px;
+}
+
+.workstations1 .ws-name {
+  inset: 38px 23px 37px 24px;
+}
+
+.lavatory {
+  width: 165.779px;
+  height: 188.844px;
+  left: 347.42px;
+}
+
+.lavatory .ws-name {
+  inset: 36px 50px 139px 52px;
+}
+
+.community-table {
+  width: 190.286px;
+  height: 87.935px;
+  top: 252.71px;
+}
+
+.community-table .ws-name {
+  inset: 30px 54px 25px 54px;
+}
+
+.art-cafe {
+  width: 400px;
+  height: 88px;
+  left: 197px;
+  top: 253px;
+}
+
+/* .art-cafe:hover {
+  background: url("../../public/images/workspaces/artcafe.png") no-repeat #296298;
+  background-blend-mode:soft-light;
+  background-position: 50% 55%;
+  background-size: cover;
+} */
+
+.art-cafe .ws-name {
+  inset: 38px 165px 34px 165px;
+}
+
+.cats {
+  width: 155.688px;
+  height: 193.169px;
+  left: 604px;
+}
+
+.cats .ws-name {
+  inset: 87px 61px 81px 61px;
+}
+
+.business-lounge {
+  width: 257px;
+  height: 194px;
+  left: 765px;
+}
+
+.business-lounge .ws-name {
+  inset: 81px 126px 81px 68px;
+}
+
+.library {
+  width: 352px;
+  height: 88px;
+  left: 604px;
+  top: 253px;
+}
+
+.library .ws-name {
+  inset: 36px 145px 28px 145px;
+}
+
+.workstations2 {
+  width: 352px;
+  height: 64px;
+  left: 604px;
+  top: 349px;
+}
+
+.workstations2 .ws-name {
+  inset: 23px 121px;
+}
+
+.recording-room {
+  width: 148.481px;
+  height: 111px;
+  left: 961.52px;
+  top: 203.7px;
+}
+
+.recording-room .ws-name {
+  inset: 39px 38px;
+}
+
+.sleeping-pods {
+  width: 148.481px;
+  height: 90.818px;
+  left: 961.52px;
+  top: 321.91px;
+}
+
+.sleeping-pods .ws-name {
+  inset: 38px 24px;
+}
+
+.faded-item {
+  opacity: 0.3;
+}
+
+.ws-yellow-arrow {
+  cursor: pointer;
+}
+
+.ws-items-list {
+  width: 1110px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 116px;
+}

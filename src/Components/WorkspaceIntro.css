@@ -1,0 +1,42 @@
+.ws-intro-container {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  margin: 56px auto;
+}
+
+.ws-intro-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+
+.ws-explore {
+  color: #222831;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.ws-intro-stroke {
+  width: 73px;
+  height: 2px;
+  background: var(--Color-Black, #222831);
+}
+
+.ws-intro-desc {
+  margin: 8px 0;
+  color: #10375c;
+  font-family: Lora;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ws-intro-yellow {
+  color: #dc913f;
+}

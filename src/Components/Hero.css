@@ -1,0 +1,84 @@
+.hero {
+  width: 1110px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.introducing {
+  color: #222831;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.stroke {
+  width: 73px;
+  height: 2px;
+  flex-shrink: 0;
+  background: var(--Color-Black, #222831);
+  margin-top: 17px;
+  margin-bottom: 11px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.slogan {
+  margin-top: 10px;
+  width: 667px;
+}
+
+.slogan1 {
+  display: inline;
+  color: #dc913f;
+  font-family: Lora;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.slogan2 {
+  display: inline;
+  color: #10375c;
+  font-family: Lora;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about {
+  margin-top: 20px;
+  color: #6a6a6a;
+  width: 382px;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.img-slider {
+  position: absolute;
+  right: 0;
+  top: 400px;
+}
+
+.search-form {
+  position: relative;
+  z-index: 10;
+}
