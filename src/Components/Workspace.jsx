@@ -2,35 +2,10 @@ import React, { useState, useRef } from "react";
 import WorkspaceItem from "./WorkspaceItem";
 import "./Workspace.css";
 
-// const WorkspaceFeatures = [
-//   {
-//     icon: "/icons/icon1.svg",
-//     highlight: "500+",
-//     description: "Meeting rooms",
-//   },
-//   {
-//     icon: "/icons/icon2.svg",
-//     highlight: "5K+",
-//     description: "Registered members",
-//   },
-//   {
-//     icon: "/icons/icon3.svg",
-//     highlight: "60+",
-//     description: "Events hosted",
-//   },
-//   {
-//     icon: "/icons/icon4.svg",
-//     highlight: "100+",
-//     description: "Event spaces",
-//   },
-// ];
-
-
-
 const WorkspaceFloor2 = (props) => {
   return (
     <div className="workspace-floor2">
-      <div className="ws-item the-office" onClick={() => props.handler(1)}>
+      <div className="ws-item the-office" onClick={() => props.handler(6)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="383"
@@ -71,7 +46,7 @@ const WorkspaceFloor2 = (props) => {
       </div>
       <div
         className="ws-item calling-booths no-svg"
-        onClick={() => props.handler(11)}
+        onClick={() => props.handler(10)}
       >
         <div className="ws-name">Calling Booths</div>
       </div>
@@ -83,25 +58,25 @@ const WorkspaceFloor2 = (props) => {
       </div>
       <div
         className="ws-item community-tables no-svg"
-        onClick={() => props.handler(5)}
+        onClick={() => props.handler(4)}
       >
         <div className="ws-name">Community Tables</div>
       </div>
       <div
         className="ws-item phone-booth no-svg"
-        onClick={() => props.handler(12)}
+        onClick={() => props.handler(11)}
       >
         <div className="ws-name">Phone Booth</div>
       </div>
       <div
         className="ws-item semi-private-booths no-svg"
-        onClick={() => props.handler(8)}
+        onClick={() => props.handler(7)}
       >
         <div className="ws-name">Semi Private Booths</div>
       </div>
       <div
         className="ws-item pool-table no-svg"
-        onClick={() => props.handler(9)}
+        onClick={() => props.handler(8)}
       >
         <div className="ws-name">Pool Table</div>
       </div>
@@ -111,13 +86,13 @@ const WorkspaceFloor2 = (props) => {
       </div>
       <div
         className="ws-item workstations no-svg"
-        onClick={() => props.handler(7)}
+        onClick={() => props.handler(6)}
       >
         <div className="ws-name">Workstations</div>
       </div>
       <div
         className="ws-item visiting-lounge no-svg"
-        onClick={() => props.handler(6)}
+        onClick={() => props.handler(5)}
       >
         <div className="ws-name">Visiting Lounge</div>
       </div>
@@ -130,7 +105,7 @@ const WorkspaceFloor3 = (props) => {
     <div className="workspace-floor3">
       <div
         className="ws-item conference-room no-svg"
-        onClick={() => props.handler(4)}
+        onClick={() => props.handler(3)}
       >
         <div className="ws-name">Conference Room</div>
       </div>
@@ -139,7 +114,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item workstations1 no-svg"
-        onClick={() => props.handler(7)}
+        onClick={() => props.handler(6)}
       >
         <div className="ws-name">Workstations</div>
       </div>
@@ -160,7 +135,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item community-table no-svg"
-        onClick={() => props.handler(5)}
+        onClick={() => props.handler(4)}
       >
         <div className="ws-name">Community Table</div>
       </div>
@@ -190,7 +165,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item workstations2 no-svg"
-        onClick={() => props.handler(7)}
+        onClick={() => props.handler(3)}
       >
         <div className="ws-name">Workstations</div>
       </div>
@@ -199,7 +174,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item sleeping-pods no-svg"
-        onClick={() => props.handler(13)}
+        onClick={() => props.handler(12)}
       >
         <div className="ws-name">Sleeping Pods</div>
       </div>
@@ -214,23 +189,29 @@ const workspaces = [
     name: "Cafe",
     picture: "/images/workspaces/cafe.png",
     description:
-      "Fuel your workday with our chai and coffee station, offering a variety of beverages to keep you energised and focused.",
+      "Enjoy high-speed Wi-Fi and a premium all-vegetarian menu featuring fancy coffees, pizzas, and burgers. Ideal for both work and relaxation.",
     features: [
       {
-        icon: "/icons/icon8.svg",
-        highlight: "Counters",
-        description: "For Food & Beverages",
+        icon: "/icons/icon1.svg",
+        highlight: "16",
+        description: "Seating Capacity",
       },
-      { icon: "/icons/icon5.svg", highlight: "500 Mbps", description: "Speed" },
+      {
+        icon: "/icons/icon14.svg",
+        highlight: "Premium",
+        description: "Cafe Menu",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet Speed",
+      },
+      {
+        icon: "/icons/icon15.svg",
+        highlight: "All-Veg",
+        description: "Fancy Menu (coffees, pizzas, burgers) ",
+      },
     ],
-  },
-  {
-    key: "2",
-    id: "the-office",
-    name: "The Office",
-    picture: "/images/workspaces/office.png",
-    description:
-      "Our private cabins feature smart seating, large windows, grey textured walls, and sleek micro concrete flooring, creating an ideal environment for focused work and professional meetings.",
   },
   {
     key: "3",
@@ -239,6 +220,28 @@ const workspaces = [
     picture: "/images/workspaces/artcafe.png",
     description:
       "Charming brick walls and a vibrant artsy area filled with inspiring artwork. Perfect for art lovers and coffee enthusiasts, our café offers a unique, cozy atmosphere for relaxation and creativity.",
+    features: [
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+      {
+        icon: "/icons/icon7.svg",
+        highlight: "Warm",
+        description: "Natural Lighting",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon10.svg",
+        highlight: "Washroom",
+        description: "Inclusive layout",
+      },
+    ],
   },
   {
     key: "4",
@@ -247,6 +250,28 @@ const workspaces = [
     picture: "/images/workspaces/businesslounge.png",
     description:
       "Our business lounge is designed to offer a comfortable and professional environment with an old English look, dark veneer, brown leather sofa and chairs",
+    features: [
+      {
+        icon: "/icons/icon1.svg",
+        highlight: "12",
+        description: "Seating Capacity",
+      },
+      {
+        icon: "/icons/icon14.svg",
+        highlight: "Premium",
+        description: "Seating (access to library)",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+    ],
   },
   {
     key: "5",
@@ -255,6 +280,28 @@ const workspaces = [
     picture: "/images/workspaces/conference.png",
     description:
       "Our conference room is equipped with state-of-the-art technology, comfortable seating, and a professional atmosphere, making it perfect for meetings, presentations, and workshops.",
+    features: [
+      {
+        icon: "/icons/icon1.svg",
+        highlight: "25",
+        description: "Seating Capacity",
+      },
+      {
+        icon: "/icons/icon11.svg",
+        highlight: "Interactive",
+        description: "Panel with lacquered glass whiteboard",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+    ],
   },
   {
     key: "6",
@@ -383,6 +430,28 @@ const workspaces = [
     picture: "/images/workspaces/pool.png",
     description:
       "Our pool table area is perfect for relaxation and socialising, offering a fun and vibrant space for members to unwind and connect.",
+    features: [
+      {
+        icon: "/icons/icon20.svg",
+        highlight: "4",
+        description: "Playing Capacity",
+      },
+      {
+        icon: "/icons/icon18.svg",
+        highlight: "Standard",
+        description: "Equipments",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+    ],
   },
   {
     key: "11",
@@ -424,13 +493,13 @@ const workspaces = [
     features: [
       {
         icon: "/icons/icon1.svg",
-        highlight: "30",
-        description: "Seating Capacity",
+        highlight: "6",
+        description: "Calling Stations",
       },
       {
-        icon: "/icons/icon11.svg",
-        highlight: "Screen",
-        description: "For Presentations",
+        icon: "/icons/icon12.svg",
+        highlight: "Private",
+        description: "Setting for Quick Calls",
       },
       {
         icon: "/icons/icon8.svg",
@@ -454,13 +523,13 @@ const workspaces = [
     features: [
       {
         icon: "/icons/icon1.svg",
-        highlight: "6",
-        description: "Standing Capacity",
+        highlight: "1",
+        description: "Seating Capacity",
       },
       {
-        icon: "/icons/icon12.svg",
-        highlight: "Privacy",
-        description: "Private Setting",
+        icon: "/icons/icon10.svg",
+        highlight: "Washroom",
+        description: "Inclusive layout",
       },
       {
         icon: "/icons/icon7.svg",
@@ -481,6 +550,28 @@ const workspaces = [
     picture: "/images/workspaces/sleeping.png",
     description:
       "Our sleeping pods are designed for relaxation and rejuvenation, offering a comfortable and private space for naps and breaks during the workday.",
+    features: [
+      {
+        icon: "/icons/icon1.svg",
+        highlight: "3",
+        description: "Sleeping Capacity",
+      },
+      {
+        icon: "icons/icon16.svg",
+        highlight: "Calm",
+        description: "Environment",
+      },
+      {
+        icon: "icons/icon17.svg",
+        highlight: "Charging",
+        description: "Points For Gadgets",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+    ],
   },
   {
     key: "15",
@@ -489,6 +580,28 @@ const workspaces = [
     picture: "/images/workspaces/library.png",
     description:
       "Our library is a quiet and peaceful space for reading and research, offering a cozy and comfortable environment for learning and relaxation.",
+    features: [
+      {
+        icon: "/icons/icon1.svg",
+        highlight: "15",
+        description: "Seating Capacity",
+      },
+      {
+        icon: "/icons/icon19.svg",
+        highlight: "Different",
+        description: "Genres (romance, history, sci-fi, self-help)",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
+      },
+    ],
   },
 ];
 

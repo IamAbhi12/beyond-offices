@@ -7,11 +7,9 @@
   background: #10375c;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 60px;
 }
 
 .member-signup {
-  margin-top: 75px;
   display: flex;
   flex-direction: column;
   width: 445px;
@@ -81,19 +79,21 @@
 }
 
 .member-pic {
-  width: 400px;
-  height: 400px;
-  flex-shrink: 0;
-  border-radius: 5px;;
-}
-
-.member-pic img {
-  width: 400px;
+  width: 450px;
   height: 400px;
   flex-shrink: 0;
   border-radius: 5px;
+  background: url("../../public/images/Pattern1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: darken;
+}
+
+.member-pic img {
+  margin-top: 35px;
+  width: 450px;
+  height: 374px;
+  flex-shrink: 0;
+  border-radius: 5px;
 }

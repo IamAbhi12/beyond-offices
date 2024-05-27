@@ -25,7 +25,7 @@ const Member = () => {
         </Link>
       </div>
       <div className="member-pic">
-        <img src="images/hero3.png" alt="member" />
+        <img src="images/member1.png" alt="member" />
       </div>
     </section>
   );

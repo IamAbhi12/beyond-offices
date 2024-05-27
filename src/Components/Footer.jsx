@@ -100,8 +100,8 @@ const Footer = () => {
                 className="footer-content-item"
               >
                 <div className="footer-content-item address">
-                  5Q97+M5Q, Opposite Apollo Clinic Kanchan Road, <br></br>
-                  GS Rd, South Sarania, Ulubari, <br></br>Guwahati, Assam 781007
+                  5Q97+M5Q, Opposite Apollo Clinic<br></br>Kanchan Road, GS Rd,
+                  South Sarania,<br></br>Ulubari, Guwahati, Assam 781007
                 </div>
               </Link>
 
