@@ -36,10 +36,8 @@ const WorkspaceFloor2 = (props) => {
         </svg>
         <div className="ws-name">Washroom</div>
       </div>
-      <div className="ws-item stationary no-svg" onClick={null}>
-        <div className="ws-name">
-          Station-<br></br>-ary
-        </div>
+      <div className="ws-item printer no-svg" onClick={null}>
+        <div className="ws-name">Printer</div>
       </div>
       <div className="ws-item reception no-svg" onClick={null}>
         <div className="ws-name">Reception</div>

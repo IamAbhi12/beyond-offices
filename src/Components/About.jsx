@@ -37,7 +37,7 @@ const About = () => {
           <img src="/images/main-logo.png" alt="Beyond" />
         </div>
         <div className="about-founder">
-          <img src="/images/founder1.png" alt="Shailja Lakhotia" />
+          <img src="/images/founder.jpg" alt="Shailja Lakhotia" />
         </div>
         <div className="about-founder-name">Shailja Lakhotia</div>
         <div className="about-founder-designation">Founder</div>

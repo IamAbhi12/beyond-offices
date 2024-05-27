@@ -81,15 +81,15 @@
   inset: 36px 36px 128px 35px;
 }
 
-.stationary {
+.printer {
   width: 77px;
   height: 88px;
   left: 388px;
   top: 254px;
 }
 
-.stationary .ws-name {
-  inset: 30px 8px 26px 8px;
+.printer .ws-name {
+  inset: 37px 8px 30px 8px;
 }
 
 .reception {
@@ -186,11 +186,11 @@
 }
 
 .gather .ws-name {
-  inset: 118px 49px 97px 48px;
+  inset: 100px 49px 97px 48px;
 }
 
 .gather .ws-name-subtext {
-  inset: 138px 29px 77px 28px;
+  inset: 120px 29px 77px 28px;
 }
 
 .workstations {
@@ -296,13 +296,6 @@
   left: 197px;
   top: 253px;
 }
-
-/* .art-cafe:hover {
-  background: url("../../public/images/workspaces/artcafe.png") no-repeat #296298;
-  background-blend-mode:soft-light;
-  background-position: 50% 55%;
-  background-size: cover;
-} */
 
 .art-cafe .ws-name {
   inset: 38px 165px 34px 165px;

@@ -1,5 +1,5 @@
 .footer {
-  width: 100%;
+  width: 1462px;
   height: fit-content;
   background: #0d2c4a;
 }
@@ -128,23 +128,4 @@
   line-height: 26px; /* 162.5% */
   text-decoration: none;
   cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    width: fit-content;
-    height: fit-content;
-    gap: 48px;
-    align-items: center;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 48px;
-  }
-
-  .footer-content-column {
-    gap: 24px;
-  }
 }
