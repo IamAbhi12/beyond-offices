@@ -1,8 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    content: " ";
-    display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  content: " ";
+  display: block;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body {
     overflow-x: hidden;
+    margin-left: 50px;
+    width: 1174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+}

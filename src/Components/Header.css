@@ -92,3 +92,11 @@ nav div {
   color: var(--Color-White, #fff);
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 120vw;
+    padding: 0 0 0 16vw;
+    margin: 61px 0 50px 0;
+  }
+}

@@ -117,9 +117,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <GoToTop />
-        <ScrollToTop />
       </section>
+      <GoToTop />
+      <ScrollToTop />
     </footer>
   );
 };

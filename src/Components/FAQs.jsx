@@ -20,9 +20,6 @@ const FAQdata = [
     answer:
       "I. Flexible membership for communal areas: single day pass, 4 days in a month, 10 days, 15 days, 1 month \nII. Private cabins: minimum 6 months (without changes) and minimum 1 year (with changes)",
   },
-];
-
-const moreFAQdata = [
   {
     id: "4",
     question: "Is there a parking facility available?",
@@ -161,7 +158,7 @@ const FAQs = () => {
       </div>
       {moreQuestions && (
         <div className="faq-items-wrapper">
-          {moreFAQdata.map((e, i) => {
+          {FAQdata.map((e, i) => {
             return (
               <FAQitem
                 key={i}
@@ -173,18 +170,6 @@ const FAQs = () => {
           })}
         </div>
       )}
-      <div className="faq-items-wrapper">
-        {FAQdata.map((e, i) => {
-          return (
-            <FAQitem
-              key={i}
-              question={e.question}
-              answer={e.answer}
-              id={e.id}
-            ></FAQitem>
-          );
-        })}
-      </div>
     </section>
   );
 };

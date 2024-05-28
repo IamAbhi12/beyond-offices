@@ -587,7 +587,7 @@ const workspaces = [
       {
         icon: "/icons/icon19.svg",
         highlight: "Different",
-        description: "Genres (romance, history, sci-fi, self-help)",
+        description: "Genres of books",
       },
       {
         icon: "/icons/icon8.svg",

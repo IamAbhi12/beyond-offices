@@ -36,3 +36,11 @@
   background: #dc913f;
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+
+  .carousel {
+    width: 120vw;
+    height: 40vh;
+  }
+}

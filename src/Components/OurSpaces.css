@@ -105,3 +105,34 @@
   font-weight: 400;
   line-height: 26px;
 }
+
+@media screen and (max-width: 768px) {
+  .our-spaces-section {
+    width: 140vw;
+    padding: 0 32px;
+    margin-top: 100px;
+  }
+
+  .our-spaces-intro-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 120vw;
+    margin: 0 auto;
+  }
+
+  .our-spaces-cards {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 30px;
+  }
+
+  .our-spaces-indicator-line {
+    margin: 50px;
+  }
+
+  .our-spaces-nav-btns{
+    right: 80px;
+  }
+}

@@ -35,7 +35,7 @@ const WorkspaceItem = ({ id, name, picture, description, features }) => {
           <p className="ws-desc-text">{description}</p>
           {features && (
             <div className="ws-features">
-              <div className="desc-features-1">
+              <div className="desc-features">
                 {features[0] && (
                   <FeatureItem
                     icon={features[0]?.icon}
@@ -51,7 +51,7 @@ const WorkspaceItem = ({ id, name, picture, description, features }) => {
                   />
                 )}
               </div>
-              <div className="desc-features-2">
+              <div className="desc-features">
                 {features[2] && (
                   <FeatureItem
                     icon={features[2]?.icon}

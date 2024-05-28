@@ -83,3 +83,42 @@
   position: relative;
   z-index: 10;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 140vw;
+    margin-top: 50px;
+    padding: 0 32px;
+  }
+
+  .intro {
+    width: 120vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 10px;
+    width: 120vw;
+    margin: 0 auto;
+  }
+
+  .slogan {
+    width: 120vw;
+    margin: 0 auto;
+  }
+
+  .img-slider {
+    width: 120vw;
+    height: 40vh;
+    margin: 200px auto;
+    left: 16vw;
+  }
+
+  .search-form{
+    width: 120vw;
+    margin: 0 auto;
+    margin-left: 16vw;
+  }
+}

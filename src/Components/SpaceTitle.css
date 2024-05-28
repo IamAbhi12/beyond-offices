@@ -68,3 +68,45 @@
   line-height: normal;
   margin-bottom: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .space-title-card {
+    width: 120vw;
+    height: 40vh;
+    margin: 50px auto;
+    margin-top: 70px;
+  }
+
+  .space-details {
+    padding-top: 20px;
+  }
+
+  .space-title {
+    font-size: 24px;
+  }
+
+  .space-desc {
+    font-size: 16px;
+  }
+
+  .space-svg {
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  .space-svg svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .space-check-avail {
+    width: 100%;
+    height: 60px;
+  }
+
+  .space-check-avail-text {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+}

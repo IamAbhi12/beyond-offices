@@ -97,3 +97,30 @@
   flex-shrink: 0;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .member {
+    width: 120vw;
+    margin: 0 16vw;
+  }
+
+  .member-signup {
+    width: 100%;
+    padding: 0 10vw;
+  }
+
+  .member-experience-text{
+    width: 80%;
+  }
+
+  .member-signup-btn {
+    width: 90vw;
+  }
+
+  .mbr-signup-btn {
+    padding: 0 30vw;
+  }
+  .member-pic {
+    display: none;
+  }
+}
