@@ -5,7 +5,7 @@ import "./Workspace.css";
 const WorkspaceFloor2 = (props) => {
   return (
     <div className="workspace-floor2">
-      <div className="ws-item the-office" onClick={() => props.handler(6)}>
+      <div className="ws-item the-office" onClick={null}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="383"

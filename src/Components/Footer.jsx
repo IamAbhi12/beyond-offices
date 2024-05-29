@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import GoToTop from "./GoToTop";
+import { HashLink } from "react-router-hash-link";
 import ScrollToTop from "./ScrollToTop";
 
 import "./Footer.css";
 
 const Footer = () => {
+
   return (
     <footer>
       <section className="footer" id="footer">
@@ -62,28 +63,55 @@ const Footer = () => {
           <div className="footer-content">
             <div className="footer-content-column">
               <div className="footer-content-title">Spaces</div>
-              <Link to="/workspaces" className="footer-content-item">
+              <HashLink
+                smooth
+                to="/workspaces#"
+                className="footer-content-item"
+              >
                 Co-working spaces
-              </Link>
-              <Link to="/workspaces" className="footer-content-item">
+              </HashLink>
+              <HashLink
+                smooth
+                to="/workspaces#"
+                className="footer-content-item"
+              >
                 Meeting rooms
-              </Link>
-              <Link to="/workspaces" className="footer-content-item">
+              </HashLink>
+              <HashLink
+                smooth
+                to="/workspaces#"
+                className="footer-content-item"
+              >
                 Event spaces
-              </Link>
-              <Link to="/workspaces" className="footer-content-item">
+              </HashLink>
+              <HashLink
+                smooth
+                to="/workspaces#"
+                className="footer-content-item"
+              >
                 Cafe{" "}
-              </Link>
+              </HashLink>
             </div>
             <div className="footer-content-column">
               <div className="footer-content-title">Company</div>
-              <Link to="/about" className="footer-content-item">
+              <HashLink smooth to="/about#" className="footer-content-item">
                 About us
-              </Link>
-              <div className="footer-content-item">Pricing</div>
-              <Link to="/#faqs" className="footer-content-item">
+              </HashLink>
+              <HashLink
+                to="/#faq-item-pricing"
+                className="footer-content-item"
+                smooth
+                scroll={(el) => {
+                  el.style.display = "block";
+                  el.children[0].click();
+                  el.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Pricing
+              </HashLink>
+              <HashLink to="/#faqs" className="footer-content-item" smooth>
                 FAQs
-              </Link>
+              </HashLink>
             </div>
             <div className="footer-content-column">
               <div className="footer-content-title">Contact us</div>
@@ -118,7 +146,6 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <GoToTop />
       <ScrollToTop />
     </footer>
   );

@@ -5,7 +5,12 @@ const FAQCard = ({ question, id }) => {
   const [buttonSelected, setButtonSelected] = useState(false);
 
   const toggleButtonSelected = () => {
-    document.getElementById("faq-item" + id)?.click();
+    if (!buttonSelected) {
+      document.getElementById("faq-item-" + id).style.display = "block";
+      document.getElementById("faq-item-btn-" + id).click();
+    } else {
+      document.getElementById("faq-item-" + id).style.display = "none";
+    }
     setButtonSelected(!buttonSelected);
   };
   return (

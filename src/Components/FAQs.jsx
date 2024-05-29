@@ -103,10 +103,27 @@ const FAQdata = [
   },
 ];
 
+const pricing = {
+  id: "pricing",
+  question: "What are the pricing options?",
+  answer:
+    "We are currently working with our service integrator to finalize our pricing options. We aim to offer competitive and transparent pricing plans that meet your needs. \nPlease stay tuned, as the pricing details will be released soon. Thank you for your patience and understanding.",
+};
+
 const FAQs = () => {
   const [moreQuestions, setMoreQuestions] = useState(false);
 
   const toggleMoreQuestions = () => {
+    const elements = document.getElementsByClassName("faq-item");
+
+    for (let i = 0; i < elements.length; i++) {
+      if (!moreQuestions) {
+        elements[i].style.display = "block";
+      } else {
+        elements[i].style.display = "none";
+      }
+    }
+
     setMoreQuestions(!moreQuestions);
   };
 
@@ -150,26 +167,35 @@ const FAQs = () => {
         <FAQCard question={FAQdata[1].question} id={FAQdata[1].id} />
         <FAQCard question={FAQdata[2].question} id={FAQdata[2].id} />
       </div>
-      <div className="faq-more-questions-btn" onClick={toggleMoreQuestions}>
+      <div
+        className="faq-more-questions-btn"
+        onClick={toggleMoreQuestions}
+        style={{
+          "margin-bottom": moreQuestions ? "60px" : "30px",
+        }}
+      >
         <div className="more-questions-text">More Questions</div>
         <div className="more-questions-svg">
           {moreQuestions ? svgDown : svgRight}
         </div>
       </div>
-      {moreQuestions && (
-        <div className="faq-items-wrapper">
-          {FAQdata.map((e, i) => {
-            return (
-              <FAQitem
-                key={i}
-                question={e.question}
-                answer={e.answer}
-                id={e.id}
-              ></FAQitem>
-            );
-          })}
-        </div>
-      )}
+      <div className="faq-items-wrapper">
+        {FAQdata.map((e, i) => {
+          return (
+            <FAQitem
+              key={i}
+              question={e.question}
+              answer={e.answer}
+              id={e.id}
+            ></FAQitem>
+          );
+        })}
+        <FAQitem
+          question={pricing.question}
+          answer={pricing.answer}
+          id={pricing.id}
+        ></FAQitem>
+      </div>
     </section>
   );
 };

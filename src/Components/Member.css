@@ -7,6 +7,7 @@
   background: #10375c;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 60px;
 }
 
 .member-signup {
@@ -109,7 +110,7 @@
     padding: 0 10vw;
   }
 
-  .member-experience-text{
+  .member-experience-text {
     width: 80%;
   }
 

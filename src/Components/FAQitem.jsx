@@ -9,6 +9,13 @@ const FAQitem = ({ question, answer, id }) => {
     setShowAnswer(!showAnswer);
   };
 
+  const makeAnswerVisible = () => {
+    if (!showAnswer) {
+      document.getElementById("faq-card" + id)?.click();
+      setShowAnswer(true);
+    }
+  };
+
   const chevronButton1 = (
     <svg
       className="chevron-button-down"
@@ -87,26 +94,24 @@ const FAQitem = ({ question, answer, id }) => {
     </svg>
   );
   return (
-    <div className="faq-item">
-      <div className="faq-content">
+    <div className="faq-item" id={"faq-item-" + id}>
+      <div className="faq-content" onClick={makeAnswerVisible}>
         <div className="faq-item-topic">
           <div className="faq-question">{question}</div>
           <div
             className={`faq-icon ${showAnswer ? "selected" : ""}`}
             onClick={toggleShowAnswer}
-            id={"faq-item" + id}
+            id={"faq-item-btn-" + id}
           >
             {showAnswer ? chevronButton1 : chevronButton2}
           </div>
         </div>
         <div className="faq-answer">
-          <p>
-            {showAnswer
-              ? answer?.split("\n").map((line) => {
-                  return <p>{line}</p>;
-                })
-              : null}
-          </p>
+          {showAnswer
+            ? answer?.split("\n").map((line, k) => {
+                return <p key={k}>{line}</p>;
+              })
+            : null}
         </div>
       </div>
     </div>
