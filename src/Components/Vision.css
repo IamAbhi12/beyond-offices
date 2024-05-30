@@ -49,3 +49,25 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .vision {
+    width: 100vw;
+    flex-direction: column-reverse;
+    margin-left: 32px;
+  }
+
+  .vision-img {
+    width: 100vw;
+    height: auto;
+  }
+
+  .vision-text {
+    width: 100vw;
+    gap: 20px;
+  }
+
+  .vision-desc{
+    width: 100vw;
+  }
+}

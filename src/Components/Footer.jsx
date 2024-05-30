@@ -5,7 +5,6 @@ import ScrollToTop from "./ScrollToTop";
 import "./Footer.css";
 
 const Footer = () => {
-
   return (
     <footer>
       <section className="footer" id="footer">
@@ -89,12 +88,12 @@ const Footer = () => {
                 to="/workspaces#"
                 className="footer-content-item"
               >
-                Cafe{" "}
+                Cafe
               </HashLink>
             </div>
             <div className="footer-content-column">
               <div className="footer-content-title">Company</div>
-              <HashLink smooth to="/about#" className="footer-content-item">
+              <HashLink to="/about#" className="footer-content-item" smooth>
                 About us
               </HashLink>
               <HashLink

@@ -50,3 +50,29 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .mission {
+    width: 100vw;
+    flex-direction: column;
+    margin-left: 32px;
+  }
+
+  .mission-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mission-title {
+    text-align: left;
+  }
+  .mission-text {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .mission-desc {
+    width: 100%;
+    text-align: left;
+  }
+}

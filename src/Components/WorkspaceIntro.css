@@ -43,8 +43,11 @@
 
 @media screen and (max-width: 768px) {
   .ws-intro-container {
-    width: 140vw;
+    width: 100vw;
     padding: 0 32px;
   }
-  
+
+  .ws-intro-desc {
+    font-size: 36px;
+  }
 }

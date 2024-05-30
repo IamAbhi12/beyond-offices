@@ -35,8 +35,8 @@
 
 @media screen and (max-width: 768px) {
   .space-image-card {
-    width: 120vw;
-    height: 40vh;
+    width: 100vw;
+    height: 30vh;
     margin: 0 auto;
   }
 
@@ -57,7 +57,7 @@
   }
 
   .space-image-text {
-    margin: 32px;
+    margin: 24px;
     font-size: 20px;;
   }
 }

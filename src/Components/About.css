@@ -66,3 +66,16 @@
   line-height: 150%; /* 24px */
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+  .about-intro-container {
+    width: 100vw;
+    flex-direction: column-reverse;
+    margin-left: 32px;
+    gap: 30px;
+  }
+
+  .about-logo {
+    display: none;
+  }
+}
