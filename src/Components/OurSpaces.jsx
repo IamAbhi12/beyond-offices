@@ -17,7 +17,7 @@ const spaces = [
     title: "Meeting rooms",
     image1: "/images/space21.png",
     feature1: "Ergonomic Seating",
-    image2: "/images/space21.png",
+    image2: "/images/space22.jpg",
     feature2: "Spacious and Well-lit",
     description:
       "The perfect environment for productive and successful gatherings, our meeting rooms are equipped with state-of-the-art technology and ergonomic furniture.",

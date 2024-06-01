@@ -16,7 +16,7 @@ const WhyBeyond = () => {
   return (
     <section className="why-beyond" id="whybeyond">
       <div className="why-beyond-features">
-        <div className="features-line-1">
+        <div className="features-line">
           <FeatureItem
             icon="/icons/icon1.svg"
             highlight="200+"
@@ -33,7 +33,7 @@ const WhyBeyond = () => {
             description="Event spaces"
           />
         </div>
-        <div className="features-line-2">
+        <div className="features-line">
           <FeatureItem
             icon="/icons/icon6.svg"
             highlight="4"

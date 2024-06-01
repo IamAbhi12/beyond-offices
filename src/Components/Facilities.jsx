@@ -51,7 +51,7 @@ const Facilities = (interval = 3000) => {
           <div className="facilities-title-stroke"></div>
         </div>
         <div className="title-desc">
-          All facilities are designed to <br></br>meet all your needs
+          All facilities are designed to meet all your needs
         </div>
       </div>
       <div className="facilities-container">

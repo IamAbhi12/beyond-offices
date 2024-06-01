@@ -86,15 +86,33 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    width: 140vw;
+    width: 120vw;
     margin-top: 50px;
     padding: 0 32px;
+    margin-bottom: -150px;
+  }
+
+  .introducing {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .about {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .stroke {
+    width: 50px;
+    margin-top: 12px;
+    margin-bottom: 8px;
   }
 
   .intro {
-    width: 120vw;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    gap: 7px;
   }
 
   .content {
@@ -105,20 +123,28 @@
   }
 
   .slogan {
-    width: 120vw;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0;
+  }
+
+  .slogan1 {
+    font-size: 30px;
+  }
+
+  .slogan2 {
+    font-size: 30px;
   }
 
   .img-slider {
     width: 120vw;
     height: 40vh;
-    margin: 200px auto;
-    left: 16vw;
+    margin: 100px 0;
+    left: 10px;
   }
 
-  .search-form{
-    width: 120vw;
-    margin: 0 auto;
-    margin-left: 16vw;
+  .search-form {
+    transform: scale(0.5);
+    transform-origin: bottom left;
+    top: -120px;
   }
 }

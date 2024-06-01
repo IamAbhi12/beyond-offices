@@ -171,7 +171,7 @@ const FAQs = () => {
         className="faq-more-questions-btn"
         onClick={toggleMoreQuestions}
         style={{
-          "margin-bottom": moreQuestions ? "60px" : "30px",
+          "margin-bottom": moreQuestions ? "50px" : "10px",
         }}
       >
         <div className="more-questions-text">More Questions</div>

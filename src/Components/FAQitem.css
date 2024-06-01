@@ -34,7 +34,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 127.273% */
+  line-height: normal; /* 127.273% */
   text-align: left;
 }
 
@@ -73,9 +73,42 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: normal; /* 166.667% */
 }
 
 .faq-answer p {
   margin: 6px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .faq-item {
+    width: 100vw;
+    height: auto;
+  }
+
+  .faq-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .faq-item-topic {
+    width: 90%;
+    padding: 0;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-icon {
+    right: 1%;
+    top: -4px;
+    transform: scale(0.7);
+  }
+
+  .faq-answer {
+    width: 80%;
+    padding: 0;
+    font-size: 16px;
+  }
 }

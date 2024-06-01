@@ -54,3 +54,31 @@
   flex-direction: column;
   gap: 29px;
 }
+
+@media screen and (max-width: 768px) {
+  .faq-section {
+    width: 100vw;
+    padding: 0 32px;
+    margin-top: 50px;
+  }
+
+  .faq-title {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .faq-cards-wrapper {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .faq-more-questions-btn {
+    gap: 8px;
+    margin: 40px 0 30px 0;
+  }
+
+  .faq-items-wrapper {
+    gap: 20px;
+  }
+}

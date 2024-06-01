@@ -102,26 +102,47 @@
 @media screen and (max-width: 768px) {
   .member {
     width: 120vw;
+    height: 65vh;
     margin: 0;
+    margin-top: 10%;
   }
 
   .member-signup {
     width: 100%;
-    padding: 0 10vw;
+    padding: 0 12vw;
+  }
+
+  .member-become {
+    gap: 7px;
+  }
+
+  .become-text {
+    font-size: 16px;
+  }
+
+  .become-stroke {
+    width: 50px;
   }
 
   .member-experience-text {
     width: 80%;
+    font-size: 18px;
   }
 
   .member-signup-btn {
-    width: 90vw;
+    width: 80%;
   }
 
   .mbr-signup-btn {
     padding: 0 30vw;
   }
+
   .member-pic {
     display: none;
+  }
+
+  .member-experience-title {
+    font-size: 30px;
+    width: 80%;
   }
 }

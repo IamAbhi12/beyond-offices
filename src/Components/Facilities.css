@@ -159,3 +159,78 @@
   height: 453px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .facilities {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0 32px;
+  }
+
+  .facilities-title {
+    width: 100%;
+    margin: 0;
+  }
+
+  .facilities-title-line {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .facilities-title-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .facilities-title-stroke {
+    width: 50px;
+  }
+
+  .title-desc {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .facilities-container {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-top: 32px;
+  }
+
+  .facilities-selector {
+    width: 100%;
+    margin: 0;
+    justify-content: space-evenly;
+    transform: scale(0.8);
+  }
+
+  .indicator-line {
+    width: 100%;
+    margin-left: -90px;
+    margin-top: 135px;
+    margin-right: -40px;
+    justify-content: center;
+  }
+  
+  .facilities-list {
+    width: 100%;
+    margin: 0;
+  }
+
+  .facility {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .facilities-display {
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .facility-image {
+    width: 100%;
+    height: 100%;
+  }
+}

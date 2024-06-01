@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-content">
-            <div className="footer-content-column">
+            <div className="footer-content-column spaces">
               <div className="footer-content-title">Spaces</div>
               <HashLink
                 smooth
@@ -91,7 +91,7 @@ const Footer = () => {
                 Cafe
               </HashLink>
             </div>
-            <div className="footer-content-column">
+            <div className="footer-content-column company">
               <div className="footer-content-title">Company</div>
               <HashLink to="/about#" className="footer-content-item" smooth>
                 About us
@@ -112,7 +112,7 @@ const Footer = () => {
                 FAQs
               </HashLink>
             </div>
-            <div className="footer-content-column">
+            <div className="footer-content-column contact">
               <div className="footer-content-title">Contact us</div>
               <Link
                 to="mailto:info@beyondoffices.co"
@@ -127,8 +127,8 @@ const Footer = () => {
                 className="footer-content-item"
               >
                 <div className="footer-content-item address">
-                  5Q97+M5Q, Opposite Apollo Clinic<br></br>Kanchan Road, GS Rd,
-                  South Sarania,<br></br>Ulubari, Guwahati, Assam 781007
+                  5Q97+M5Q, Opposite Apollo Clinic Kanchan Road, GS Rd, South
+                  Sarania, Ulubari, Guwahati, Assam 781007
                 </div>
               </Link>
 

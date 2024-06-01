@@ -2,10 +2,31 @@ import React, { useState, useRef } from "react";
 import WorkspaceItem from "./WorkspaceItem";
 import "./Workspace.css";
 
+const items = {
+  cafe: 0,
+  "the-office": 1,
+  "art-cafe": 2,
+  "business-lounge": 3,
+  "conference-room": 4,
+  "community-tables": 5,
+  "visiting-lounge": 6,
+  workstations: 7,
+  "semi-private-booths": 8,
+  "pool-table": 9,
+  amphitheatre: 10,
+  "calling-booths": 11,
+  "phone-booth": 12,
+  "sleeping-pods": 13,
+  library: 14,
+};
+
 const WorkspaceFloor2 = (props) => {
   return (
     <div className="workspace-floor2">
-      <div className="ws-item the-office" onClick={null}>
+      <div
+        className="ws-item the-office"
+        onClick={() => props.handler(items["the-office"])}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="383"
@@ -44,7 +65,7 @@ const WorkspaceFloor2 = (props) => {
       </div>
       <div
         className="ws-item calling-booths no-svg"
-        onClick={() => props.handler(10)}
+        onClick={() => props.handler(items["calling-booths"])}
       >
         <div className="ws-name">Calling Booths</div>
       </div>
@@ -56,41 +77,44 @@ const WorkspaceFloor2 = (props) => {
       </div>
       <div
         className="ws-item community-tables no-svg"
-        onClick={() => props.handler(4)}
+        onClick={() => props.handler(items["community-tables"])}
       >
         <div className="ws-name">Community Tables</div>
       </div>
       <div
         className="ws-item phone-booth no-svg"
-        onClick={() => props.handler(11)}
+        onClick={() => props.handler(items["phone-booth"])}
       >
         <div className="ws-name">Phone Booth</div>
       </div>
       <div
         className="ws-item semi-private-booths no-svg"
-        onClick={() => props.handler(7)}
+        onClick={() => props.handler(items["semi-private-booths"])}
       >
         <div className="ws-name">Semi Private Booths</div>
       </div>
       <div
         className="ws-item pool-table no-svg"
-        onClick={() => props.handler(8)}
+        onClick={() => props.handler(items["pool-table"])}
       >
         <div className="ws-name">Pool Table</div>
       </div>
-      <div className="ws-item gather no-svg" onClick={() => props.handler(10)}>
+      <div
+        className="ws-item gather no-svg"
+        onClick={() => props.handler(items["amphitheatre"])}
+      >
         <div className="ws-name">Gather</div>
         <div className="ws-name-subtext">Amphitheatre</div>
       </div>
       <div
         className="ws-item workstations no-svg"
-        onClick={() => props.handler(6)}
+        onClick={() => props.handler(items["workstations"])}
       >
         <div className="ws-name">Workstations</div>
       </div>
       <div
         className="ws-item visiting-lounge no-svg"
-        onClick={() => props.handler(5)}
+        onClick={() => props.handler(items["visiting-lounge"])}
       >
         <div className="ws-name">Visiting Lounge</div>
       </div>
@@ -103,7 +127,7 @@ const WorkspaceFloor3 = (props) => {
     <div className="workspace-floor3">
       <div
         className="ws-item conference-room no-svg"
-        onClick={() => props.handler(3)}
+        onClick={() => props.handler(items["conference-room"])}
       >
         <div className="ws-name">Conference Room</div>
       </div>
@@ -112,7 +136,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item workstations1 no-svg"
-        onClick={() => props.handler(6)}
+        onClick={() => props.handler(items["workstations"])}
       >
         <div className="ws-name">Workstations</div>
       </div>
@@ -133,17 +157,26 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item community-table no-svg"
-        onClick={() => props.handler(4)}
+        onClick={() => props.handler(items["community-tables"])}
       >
-        <div className="ws-name">Community Table</div>
+        <div className="ws-name">Community Tables</div>
       </div>
-      <div className="ws-item art-cafe no-svg" onClick={() => props.handler(2)}>
+      <div
+        className="ws-item art-cafe no-svg"
+        onClick={() => props.handler(items["art-cafe"])}
+      >
         <div className="ws-name">Art Cafe</div>
       </div>
-      <div className="ws-item cats no-svg" onClick={() => props.handler(0)}>
+      <div
+        className="ws-item cafe no-svg"
+        onClick={() => props.handler(items["cafe"])}
+      >
         <div className="ws-name">Cafe</div>
       </div>
-      <div className="ws-item business-lounge" onClick={() => props.handler(3)}>
+      <div
+        className="ws-item business-lounge"
+        onClick={() => props.handler(items["business-lounge"])}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="257"
@@ -158,12 +191,15 @@ const WorkspaceFloor3 = (props) => {
         </svg>
         <div className="ws-name">Business Lounge</div>
       </div>
-      <div className="ws-item library no-svg" onClick={() => props.handler(14)}>
+      <div
+        className="ws-item library no-svg"
+        onClick={() => props.handler(items["library"])}
+      >
         <div className="ws-name">Library</div>
       </div>
       <div
         className="ws-item workstations2 no-svg"
-        onClick={() => props.handler(3)}
+        onClick={() => props.handler(items["workstations"])}
       >
         <div className="ws-name">Workstations</div>
       </div>
@@ -172,7 +208,7 @@ const WorkspaceFloor3 = (props) => {
       </div>
       <div
         className="ws-item sleeping-pods no-svg"
-        onClick={() => props.handler(12)}
+        onClick={() => props.handler(items["sleeping-pods"])}
       >
         <div className="ws-name">Sleeping Pods</div>
       </div>
@@ -187,7 +223,7 @@ const workspaces = [
     name: "Cafe",
     picture: "/images/workspaces/cafe.png",
     description:
-      "Enjoy high-speed Wi-Fi and a premium all-vegetarian menu featuring fancy coffees, pizzas, and burgers. Ideal for both work and relaxation.",
+      "Unwind in our green and grey cafe with artisanal pastries, fancy coffee, tea, matcha, and a selection of bowls and sandwiches – the perfect break space at Beyond Offices.",
     features: [
       {
         icon: "/icons/icon1.svg",
@@ -200,14 +236,44 @@ const workspaces = [
         description: "Cafe Menu",
       },
       {
+        icon: "/icons/icon15.svg",
+        highlight: "All-Veg",
+        description: "Fancy Menu (coffees, pizzas, burgers) ",
+      },
+      {
         icon: "/icons/icon5.svg",
         highlight: "500 Mbps",
         description: "Internet Speed",
       },
+    ],
+  },
+  {
+    key: "2",
+    id: "the-office",
+    name: "The Office",
+    picture: "/images/workspaces/theoffice.png",
+    description:
+      "Our Office features private cabins with smart seating, large windows, grey textured walls, and sleek micro concrete flooring. This professional environment is designed to enhance productivity and comfort.",
+    features: [
       {
-        icon: "/icons/icon15.svg",
-        highlight: "All-Veg",
-        description: "Fancy Menu (coffees, pizzas, burgers) ",
+        icon: "/icons/icon1.svg",
+        highlight: "49",
+        description: "Seating Capacity",
+      },
+      {
+        icon: "/icons/icon12.svg",
+        highlight: "9",
+        description: "Private Cabins",
+      },
+      {
+        icon: "/icons/icon8.svg",
+        highlight: "Food & Bev",
+        description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
       },
     ],
   },
@@ -220,14 +286,14 @@ const workspaces = [
       "Charming brick walls and a vibrant artsy area filled with inspiring artwork. Perfect for art lovers and coffee enthusiasts, our café offers a unique, cozy atmosphere for relaxation and creativity.",
     features: [
       {
-        icon: "/icons/icon5.svg",
-        highlight: "500 Mbps",
-        description: "Internet speed",
-      },
-      {
         icon: "/icons/icon7.svg",
         highlight: "Warm",
         description: "Natural Lighting",
+      },
+      {
+        icon: "/icons/icon10.svg",
+        highlight: "Washroom",
+        description: "Inclusive layout",
       },
       {
         icon: "/icons/icon8.svg",
@@ -235,9 +301,9 @@ const workspaces = [
         description: "Chai and Coffee Station",
       },
       {
-        icon: "/icons/icon10.svg",
-        highlight: "Washroom",
-        description: "Inclusive layout",
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
       },
     ],
   },
@@ -260,14 +326,14 @@ const workspaces = [
         description: "Seating (access to library)",
       },
       {
-        icon: "/icons/icon5.svg",
-        highlight: "500 Mbps",
-        description: "Internet speed",
-      },
-      {
         icon: "/icons/icon8.svg",
         highlight: "Food & Bev",
         description: "Chai and Coffee Station",
+      },
+      {
+        icon: "/icons/icon5.svg",
+        highlight: "500 Mbps",
+        description: "Internet speed",
       },
     ],
   },
@@ -277,7 +343,7 @@ const workspaces = [
     name: "Conference Room",
     picture: "/images/workspaces/conference.png",
     description:
-      "Our conference room is equipped with state-of-the-art technology, comfortable seating, and a professional atmosphere, making it perfect for meetings, presentations, and workshops.",
+      "Equipped with the latest technology, comfortable seating, and a professional atmosphere, our conference room is designed to facilitate productive discussions and successful collaborations.",
     features: [
       {
         icon: "/icons/icon1.svg",
@@ -487,7 +553,7 @@ const workspaces = [
     name: "Calling Booths",
     picture: "/images/workspaces/calling.png",
     description:
-      "Utilise our calling station for important phone calls or video conferences, providing a comfortable and professional space for communication.",
+      "Conveniently located near the community tables and chai & coffee station, our quick calling stations feature 6 standing booths for efficient and private calls.",
     features: [
       {
         icon: "/icons/icon1.svg",
@@ -517,12 +583,12 @@ const workspaces = [
     name: "Phone Booth",
     picture: "/images/workspaces/phone.png",
     description:
-      "Conduct private phone calls or video conferences in our dedicated phone booth, ensuring professional communication in a quiet setting.",
+      "Conduct private phone calls in our dedicated phone booth, ensuring professional communication in a quiet setting.",
     features: [
       {
         icon: "/icons/icon1.svg",
         highlight: "1",
-        description: "Seating Capacity",
+        description: "Standing Capacity",
       },
       {
         icon: "/icons/icon10.svg",

@@ -46,8 +46,8 @@
   }
 
   .space-button-container {
-    width: 150px;
-    height: 90px;
+    width: 100px;
+    height: 60px;
     bottom: 0;
   }
 
@@ -57,7 +57,7 @@
   }
 
   .space-image-text {
-    margin: 24px;
+    margin: 18px;
     font-size: 20px;;
   }
 }

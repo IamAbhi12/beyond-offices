@@ -110,15 +110,23 @@
   .our-spaces-section {
     width: 100vw;
     padding: 0 32px;
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .our-spaces-intro-sec {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     width: 100vw;
     margin: 0 auto;
+  }
+
+  .our-spaces-intro-text {
+    width: 100%;
+  }
+
+  .our-spaces-title {
+    font-size: 30px;
   }
 
   .our-spaces-cards {
@@ -129,10 +137,13 @@
   }
 
   .our-spaces-indicator-line {
-    margin: 50px;
+    margin: 20px;
   }
 
   .our-spaces-nav-btns {
     right: 32px;
+    top: 8px;
+    transform: scale(0.7);
+    transform-origin: right;
   }
 }

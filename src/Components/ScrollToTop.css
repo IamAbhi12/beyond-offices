@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 768px) {
   .scroll-to-top {
-    bottom: 50px;
-    right: 50px;
+    bottom: 30px;
+    left: 390px;
     width: 10vw;
     height: 10vw;
   }
