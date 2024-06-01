@@ -95,8 +95,9 @@
 
 @media screen and (max-width: 768px) {
   .ws-item-container {
+    width: 100vw;
     gap: 32px;
-    margin: 0 32px;
+    margin: 0 40px;
   }
 
   .ws-item-title {
@@ -109,13 +110,13 @@
   }
 
   .ws-item-img {
-    width: 80vw;
+    width: 83vw;
     height: 250px;
     margin: 0 8vw;
   }
 
   .ws-item-overlay {
-    width: 80vw;
+    width: 83vw;
     height: 50px;
     margin: 0;
   }

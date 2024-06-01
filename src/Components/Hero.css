@@ -86,10 +86,9 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    width: 120vw;
-    margin-top: 50px;
-    padding: 0 32px;
-    margin-bottom: -150px;
+    width: 110vw;
+    margin: 0 0 0 32px;
+    margin-top: 0;
   }
 
   .introducing {
@@ -118,7 +117,7 @@
   .content {
     flex-direction: column;
     gap: 10px;
-    width: 120vw;
+    width: 110vw;
     margin: 0 auto;
   }
 
@@ -137,14 +136,16 @@
 
   .img-slider {
     width: 120vw;
-    height: 40vh;
-    margin: 100px 0;
+    height: 350px;
+    margin: 0;
+    margin-top: calc(520px - 100vw);
     left: 10px;
+    top: 300px;
   }
 
   .search-form {
-    transform: scale(0.5);
+    transform: scale(0.65);
     transform-origin: bottom left;
-    top: -120px;
+    top: -10vw;
   }
 }

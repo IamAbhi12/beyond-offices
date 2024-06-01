@@ -102,13 +102,13 @@
 @media screen and (max-width: 768px) {
   .member {
     width: 120vw;
-    height: 65vh;
+    height: 450px;
     margin: 0;
     margin-top: 10%;
   }
 
   .member-signup {
-    width: 100%;
+    width: 80%;
     padding: 0 12vw;
   }
 
@@ -125,12 +125,12 @@
   }
 
   .member-experience-text {
-    width: 80%;
+    width: 100%;
     font-size: 18px;
   }
 
   .member-signup-btn {
-    width: 80%;
+    width: 100%;
   }
 
   .mbr-signup-btn {
@@ -143,6 +143,6 @@
 
   .member-experience-title {
     font-size: 30px;
-    width: 80%;
+    width: 100%;
   }
 }

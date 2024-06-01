@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
   .scroll-to-top {
     bottom: 30px;
-    left: 390px;
+    right: 30px;
     width: 10vw;
     height: 10vw;
   }

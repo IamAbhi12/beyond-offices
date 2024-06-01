@@ -38,9 +38,15 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .carousel {
     width: 120vw;
-    height: 40vh;
+    height: 320px;
+  }
+
+  .carousel-indicators {
+    width: 80px;
+    right: 20vw;
+    margin-left: 90vw;
+    margin-bottom: 8vw;
   }
 }

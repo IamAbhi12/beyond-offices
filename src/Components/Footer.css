@@ -135,6 +135,7 @@
   .footer {
     width: 120vw;
     margin: 0;
+    padding: 20px 0;
   }
 
   .footer-container {
@@ -181,8 +182,8 @@
   .footer-content {
     margin-top: 48px;
     justify-content: space-between;
-    height: 40vh;
     gap: 16px;
+    padding-bottom: 20px;
   }
 
   .footer-content-column {
@@ -197,7 +198,7 @@
     width: 90px;
   }
 
-  .footer-content-column.contact{
+  .footer-content-column.contact {
     width: 140px;
   }
 
