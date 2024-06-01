@@ -101,7 +101,7 @@
   }
 
   .ws-item-title {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .ws-item-details {
@@ -110,13 +110,13 @@
   }
 
   .ws-item-img {
-    width: 83vw;
+    width: 100vw;
     height: 250px;
-    margin: 0 8vw;
+    margin: 0;
   }
 
   .ws-item-overlay {
-    width: 83vw;
+    width: 60vw;
     height: 50px;
     margin: 0;
   }

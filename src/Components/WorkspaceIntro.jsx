@@ -10,9 +10,7 @@ const WorkspaceIntro = (props) => {
       <div className="ws-intro-desc">
         {props.text1}{" "}
         <span className="ws-intro-yellow">{props.yellowText}</span>{" "}
-        {props.text2}
-        <br></br>
-        {props.text3}
+        {props.text2} {props.text3}
       </div>
     </div>
   );

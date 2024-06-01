@@ -84,10 +84,14 @@ function Header() {
       </header>
       <header className="mobile-header">
         <div className="header-wrapper">
-          <div className="main-logo-mobile">
-            <img src="/images/main-logo-mobile.png" alt="main logo"></img>
-          </div>
-          <div className="main-text-mobile">BEYOND</div>
+          <Link to="/">
+            <div className="main-logo-mobile">
+              <img src="/images/main-logo-mobile.png" alt="main logo"></img>
+            </div>
+          </Link>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <div className="main-text-mobile">BEYOND</div>
+          </Link>
           <div
             className="hamburger-menu-mobile"
             id="menuToggle"
@@ -96,9 +100,8 @@ function Header() {
                 ? { backgroundColor: "white" }
                 : { backgroundColor: "transparent" }
             }
-            onClick={showHideTray}
           >
-            <input type="checkbox" />
+            <input type="checkbox" onClick={showHideTray} />
             <span></span>
             <span></span>
             <span></span>

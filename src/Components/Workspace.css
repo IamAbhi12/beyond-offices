@@ -155,7 +155,7 @@
 }
 
 .phone-booth .ws-name {
-  inset: 30% 2%;
+  inset: 30% 5%;
 }
 
 .semi-private-booths {
@@ -439,6 +439,7 @@
     padding: 0;
     margin: 0;
     margin-left: calc((100vw - 390px) / 2);
+    margin-bottom: calc(430px - 100vw);
   }
 
   .ws-name {
@@ -465,8 +466,8 @@
 
   .ws-items-list {
     width: 100vw;
-    margin: 50px 0 0 0;
-    gap: 50px;
+    margin: 50px 0;
+    gap: 80px;
   }
 
   .navigation {
