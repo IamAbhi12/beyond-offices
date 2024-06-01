@@ -78,4 +78,9 @@
   .about-logo {
     display: none;
   }
+
+  .about-founder {
+    width: 100vw;
+    height: 100%;
+  }
 }

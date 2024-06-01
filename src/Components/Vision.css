@@ -53,7 +53,7 @@
 @media screen and (max-width: 768px) {
   .vision {
     width: 100vw;
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin-left: 32px;
   }
 
@@ -67,9 +67,11 @@
     gap: 20px;
   }
 
-  
+  .vision-stroke {
+    width: 50%;
+  }
 
-  .vision-desc{
+  .vision-desc {
     width: 100vw;
   }
 }
