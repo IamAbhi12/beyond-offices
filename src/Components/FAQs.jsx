@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FAQCard from "./FAQCard";
+import FAQCards from "./FAQCards";
 import FAQitem from "./FAQitem";
 import "./FAQs.css";
 
@@ -162,16 +162,12 @@ const FAQs = () => {
       <div className="faq-title">
         Find the answers to anything you need in our Help Center
       </div>
-      <div className="faq-cards-wrapper">
-        <FAQCard question={FAQdata[0].question} id={FAQdata[0].id} />
-        <FAQCard question={FAQdata[1].question} id={FAQdata[1].id} />
-        <FAQCard question={FAQdata[2].question} id={FAQdata[2].id} />
-      </div>
+      <FAQCards FAQdata={FAQdata} />
       <div
         className="faq-more-questions-btn"
         onClick={toggleMoreQuestions}
         style={{
-          "margin-bottom": moreQuestions ? "50px" : "10px",
+          marginBottom: moreQuestions ? "50px" : "10px",
         }}
       >
         <div className="more-questions-text">More Questions</div>
