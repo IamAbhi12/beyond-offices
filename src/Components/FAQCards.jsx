@@ -43,13 +43,13 @@ const FAQCards = ({ FAQdata }) => {
 };
 
 const FAQCard = ({ question, id, isActive, handleClick }) => {
-
   const faqItem = document.getElementById("faq-item-" + id);
   useEffect(() => {
     if (faqItem) {
       if (isActive) {
         faqItem.style.display = "block";
         faqItem.children[0].click();
+        faqItem.scrollIntoView({ behavior: "smooth", block: "center" });
       } else {
         faqItem.style.display = "none";
       }

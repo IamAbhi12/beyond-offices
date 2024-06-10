@@ -103,7 +103,7 @@ const Footer = () => {
                 scroll={(el) => {
                   el.style.display = "block";
                   el.children[0].click();
-                  el.scrollIntoView({ behavior: "smooth" });
+                  el.scrollIntoView({ behavior: "smooth", block: "center" });
                 }}
               >
                 Pricing
