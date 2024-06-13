@@ -5,23 +5,23 @@ const Facilities = (interval = 3000) => {
   const [currentFacility, setCurrentFacility] = useState(0);
   const facilities = [
     {
-      image: "images/facility1.png",
+      image: "images/facility1.webp",
       title: "Valet parking",
     },
     {
-      image: "images/facility2.png",
+      image: "images/facility2.webp",
       title: "Cozy cafe",
     },
     {
-      image: "images/facility3.png",
+      image: "images/facility3.webp",
       title: "Comfortable spaces",
     },
     {
-      image: "images/facility4.png",
+      image: "images/facility4.webp",
       title: "Co-working spaces",
     },
     {
-      image: "images/facility5.png",
+      image: "images/facility5.webp",
       title: "Amphitheatre",
     },
   ];

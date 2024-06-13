@@ -6,36 +6,36 @@ import "./OurSpaces.css";
 const spaces = [
   {
     title: "Co-working spaces",
-    image1: "/images/space11.png",
+    image1: "/images/space11.webp",
     feature1: "High Speed Internet",
-    image2: "/images/space12.png",
+    image2: "/images/space12.webp",
     feature2: "Easy to Collaborate",
     description:
       "Collaborate and connect with fellow professionals at our communal tables, designed to foster networking and idea-sharing in a vibrant workspace.",
   },
   {
     title: "Meeting rooms",
-    image1: "/images/space21.png",
+    image1: "/images/space21.webp",
     feature1: "Ergonomic Seating",
-    image2: "/images/space22.jpg",
+    image2: "/images/space22.webp",
     feature2: "Spacious and Well-lit",
     description:
       "The perfect environment for productive and successful gatherings, our meeting rooms are equipped with state-of-the-art technology and ergonomic furniture.",
   },
   {
     title: "Event spaces",
-    image1: "/images/space31.png",
+    image1: "/images/space31.webp",
     feature1: "Elegant Décor",
-    image2: "/images/space32.png",
+    image2: "/images/space32.webp",
     feature2: "Flexible Layouts",
     description:
       "Designed to accommodate a wide range of gatherings from corporate events and workshops to social celebrations and networking functions",
   },
   {
     title: "Cafe",
-    image1: "/images/space41.png",
+    image1: "/images/space41.webp",
     feature1: "Food and Beverage counter",
-    image2: "/images/space42.png",
+    image2: "/images/space42.webp",
     feature2: "High Speed Internet",
     description:
       "Fuel your workday with our chai and coffee station, offering a variety of beverages to keep you energised and focused",

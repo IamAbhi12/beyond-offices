@@ -221,7 +221,7 @@ const workspaces = [
     key: "1",
     id: "cafe",
     name: "Cafe",
-    picture: "/images/workspaces/cafe.png",
+    picture: "/images/workspaces/cafe.webp",
     description:
       "Unwind in our green and grey cafe with artisanal pastries, fancy coffee, tea, matcha, and a selection of bowls and sandwiches – the perfect break space at Beyond Offices.",
     features: [
@@ -251,7 +251,7 @@ const workspaces = [
     key: "2",
     id: "the-office",
     name: "The Office",
-    picture: "/images/workspaces/theoffice.png",
+    picture: "/images/workspaces/theoffice.webp",
     description:
       "Our Office features private cabins with smart seating, large windows, grey textured walls, and sleek micro concrete flooring. This professional environment is designed to enhance productivity and comfort.",
     features: [
@@ -281,7 +281,7 @@ const workspaces = [
     key: "3",
     id: "art-cafe",
     name: "Art Cafe",
-    picture: "/images/workspaces/artcafe.png",
+    picture: "/images/workspaces/artcafe.webp",
     description:
       "Charming brick walls and a vibrant artsy area filled with inspiring artwork. Perfect for art lovers and coffee enthusiasts, our café offers a unique, cozy atmosphere for relaxation and creativity.",
     features: [
@@ -311,7 +311,7 @@ const workspaces = [
     key: "4",
     id: "business-lounge",
     name: "Business Lounge",
-    picture: "/images/workspaces/businesslounge.png",
+    picture: "/images/workspaces/businesslounge.webp",
     description:
       "Our business lounge is designed to offer a comfortable and professional environment with an old English look, dark veneer, brown leather sofa and chairs",
     features: [
@@ -341,7 +341,7 @@ const workspaces = [
     key: "5",
     id: "conference-room",
     name: "Conference Room",
-    picture: "/images/workspaces/conference.png",
+    picture: "/images/workspaces/conference.webp",
     description:
       "Equipped with the latest technology, comfortable seating, and a professional atmosphere, our conference room is designed to facilitate productive discussions and successful collaborations.",
     features: [
@@ -371,7 +371,7 @@ const workspaces = [
     key: "6",
     id: "community-tables",
     name: "Community Tables",
-    picture: "/images/workspaces/community.png",
+    picture: "/images/workspaces/community.webp",
     description:
       "Collaborate and connect with fellow professionals at our community tables, designed to foster networking and idea-sharing in a vibrant workspace.",
     features: [
@@ -401,7 +401,7 @@ const workspaces = [
     key: "7",
     id: "visiting-lounge",
     name: "Visiting Lounge",
-    picture: "/images/workspaces/visiting.png",
+    picture: "/images/workspaces/visiting.webp",
     description:
       "Welcome guests and clients in our inviting visiting lounge, designed for informal meetings and relaxation in between work sessions.",
     features: [
@@ -431,7 +431,7 @@ const workspaces = [
     key: "8",
     id: "workstations",
     name: "Workstations",
-    picture: "/images/workspaces/workstations.png",
+    picture: "/images/workspaces/workstations.webp",
     description:
       "Embrace flexibility and productivity at our open workstations, offering a modern and spacious environment for individual or group work.",
     features: [
@@ -461,7 +461,7 @@ const workspaces = [
     key: "9",
     id: "semi-private-booths",
     name: "Semi Private Booths",
-    picture: "/images/workspaces/semibooth.png",
+    picture: "/images/workspaces/semibooth.webp",
     description:
       "Find the perfect balance of privacy and collaboration in our semi-private booths, ideal for focused work or small group discussions.",
     features: [
@@ -491,7 +491,7 @@ const workspaces = [
     key: "10",
     id: "pool-table",
     name: "Pool Table",
-    picture: "/images/workspaces/pool.png",
+    picture: "/images/workspaces/pool.webp",
     description:
       "Our pool table area is perfect for relaxation and socialising, offering a fun and vibrant space for members to unwind and connect.",
     features: [
@@ -521,7 +521,7 @@ const workspaces = [
     key: "11",
     id: "amphitheatre",
     name: "Amphitheatre",
-    picture: "/images/workspaces/amphitheatre.png",
+    picture: "/images/workspaces/amphitheatre.webp",
     description:
       " Immerse yourself in our indoor amphitheatre or oasis, a versatile space for events, presentations, or simply unwinding in a tranquil setting.",
     features: [
@@ -551,7 +551,7 @@ const workspaces = [
     key: "12",
     id: "calling-booths",
     name: "Calling Booths",
-    picture: "/images/workspaces/calling.png",
+    picture: "/images/workspaces/calling.webp",
     description:
       "Conveniently located near the community tables and chai & coffee station, our quick calling stations feature 6 standing booths for efficient and private calls.",
     features: [
@@ -581,7 +581,7 @@ const workspaces = [
     key: "13",
     id: "phone-booth",
     name: "Phone Booth",
-    picture: "/images/workspaces/phone.png",
+    picture: "/images/workspaces/phone.webp",
     description:
       "Conduct private phone calls in our dedicated phone booth, ensuring professional communication in a quiet setting.",
     features: [
@@ -611,7 +611,7 @@ const workspaces = [
     key: "14",
     id: "sleeping-pods",
     name: "Sleeping Pods",
-    picture: "/images/workspaces/sleeping.png",
+    picture: "/images/workspaces/sleeping.webp",
     description:
       "Our sleeping pods are designed for relaxation and rejuvenation, offering a comfortable and private space for naps and breaks during the workday.",
     features: [
@@ -641,7 +641,7 @@ const workspaces = [
     key: "15",
     id: "library",
     name: "Library",
-    picture: "/images/workspaces/library.png",
+    picture: "/images/workspaces/library.webp",
     description:
       "Our library is a quiet and peaceful space for reading and research, offering a cozy and comfortable environment for learning and relaxation.",
     features: [
